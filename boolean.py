@@ -10,22 +10,11 @@ else:
 
 
 
-
-
-
-
-
-
 # Exercicio boolean:
 if 10 > 5: 
 	print('verdadeiro')
 else:
 	print('não é não')
-
-
-
-
-
 
 
 
@@ -41,12 +30,6 @@ if idade >= 18:
 	print(nome + ' tem ' + str(idade) + ' anos e pode voltar')
 else:
 	print(nome + ' tem ' + str(idade) + ' anos e não pode voltar')
-
-
-
-
-
-
 
 
 
