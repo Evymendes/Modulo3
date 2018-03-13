@@ -9,11 +9,12 @@ sammy = {
 2- Adicione novos campos a esse dicionários
 3- Exiba esse dicionário mostrando cada chave e valor.
 
+'''
 
 username = {
 	'username': 'Evelyn', 
-	'online': True, 
-	'followers': 120
+	'repositorios': '19', 
+	'followers': '1'
 }
 
 print('username')
@@ -21,21 +22,23 @@ print('username')
 
 username = {
 	'username': 'Evelyn', 
-	'online': True, 
-	'followers': 120
+	'repositorios': '19', 
+	'followers': '1'
 }
 
-username ['signo'] = 'aquário'
+username ['following'] = '1'
 
 print(username)
 
-'''
 username = {
 	'username': 'Evelyn', 
-	'online': True, 
-	'followers': 120
+	'repositorios': '19', 
+	'followers': '1'
 }
 
-del username['online']
+del username['repositorios']
 
 print(username)
+
+for key in username:
+	print(key + ':\t' + username[key])
